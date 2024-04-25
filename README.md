@@ -11,8 +11,11 @@ The dataset used is `Tuesday-WorkingHours.pcap_ISCX`, which contains network tra
 ### Downloading the Dataset
 
 Since the dataset is too large to be hosted directly on GitHub, please follow the instructions below to download it:
-1. [Click here to download the dataset](<insert your link here>)
-2. Place the downloaded file in the root directory of this project.
+1. https://www.unb.ca/cic/datasets/ids-2017.html
+2. Navigate to the link enter your details to get the dataset.
+3. Go to CIC-IDS-2017/CSVs/MachineLearningCSV.zip
+4. Unzip the folder and you will get 9 csv files
+5. Use Tuesday-WorkingHours.pcap_ISCX file and place it into your project directory.
 
 ## Models
 
@@ -39,14 +42,13 @@ pip install -r requirements.txt
 
 
 ## Running the Notebooks
-
-Open the Jupyter Notebooks in the following order to view the implementation and results:
+Open Jupyter Notebooks in your project directory.
+Make sure you run following command "pip install -r requirements.txt" in the top cell before running your code.
+Change csv file path 
+Run the files in the following order and view the implementation and results:
 1. RandomForest_ML.ipynb
 2. SVM_ML.ipynb
 3. J48_ML.ipynb
-
-## Results
-
 
 ## Contributing
 
